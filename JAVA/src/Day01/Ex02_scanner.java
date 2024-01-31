@@ -1,3 +1,4 @@
+
 package Day01;
 // import 패키지명.클래스명; : 외부 클래스 포함
 import java.util.Scanner;
