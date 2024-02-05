@@ -1,3 +1,4 @@
+package _1199;
 import java.util.Scanner;
 /*
 1. 공이 30m~40m나 60m~70m 에 들어오면 슬기가 이김.

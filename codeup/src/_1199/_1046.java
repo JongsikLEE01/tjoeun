@@ -1,3 +1,5 @@
+package _1199;
+
 import java.util.Scanner;
 // 정수 3개를 입력 받아 합과 평균(소수점 첫째자리까지)을 출력
 

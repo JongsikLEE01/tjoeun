@@ -1,3 +1,4 @@
+package _1199;
 import java.util.Scanner;
 //어떤 정수가 입력되면 그 수가 7의 배수인지 확인
 public class _1155 {

@@ -1,3 +1,5 @@
+package _1199;
+
 import java.util.Scanner;
 /*  사칙 연산 계산기 만들기
 	두 정수를 입력 받아 아래와 같이 출력하시오.
@@ -7,7 +9,7 @@ import java.util.Scanner;
 		3*2=6
 		3/2=1 
 */
-public class codeup1{
+public class _1116 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in); // 스캐너 객체 생성

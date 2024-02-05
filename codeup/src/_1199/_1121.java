@@ -1,3 +1,4 @@
+package _1199;
 import java.util.Scanner;
 //정수 계산에서 나머지 구하기
 

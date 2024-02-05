@@ -1,3 +1,4 @@
+package _1199;
 import java.util.Scanner;
 /*
  * 1. 공의 위치가 50m~70m이면 슬기가 이김.
