@@ -18,7 +18,6 @@ public class StaticMember {
 	public static void main(String[] args) {
 		// static 메소드는 객체 생성 없이 호출 가능
 		int sum = sum(10,20);
-		System.out.println(sum);
 		
 		a=100;
 		StaticMember s1 = new StaticMember();
@@ -37,5 +36,6 @@ public class StaticMember {
 		System.out.println("c1 : "+c1);
 		System.out.println("a2 : "+a2);
 		System.out.println("c2 : "+c2);
+		System.out.println(sum);
 	}
 }
