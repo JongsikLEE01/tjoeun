@@ -15,6 +15,7 @@ public class Ex04_Lotto {
 		int lotto = (int) (Math.random()*45)+1;
 		System.out.println(lotto);
 		
+		
 		// (공식) : (int)(Math.random()*[개수])+시작숫자;
 		// 1~20사이의 랜덤수
 		int rand = (int)(Math.random()*20)+1;
@@ -31,12 +32,12 @@ public class Ex04_Lotto {
 			// 중복제거
 			for (int j = 0; j < i; j++) {
 				if(lotto1[i] == lotto1[j]) {
-					i--;
+					i--;  
 					break;
 				}
 			}
 		}
-		
+   		
 		// 오름차순 정렬
 		int temp;
 		for (int i = 0; i < lotto1.length; i++) {
