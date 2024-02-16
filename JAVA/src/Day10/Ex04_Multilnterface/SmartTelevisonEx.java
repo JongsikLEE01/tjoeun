@@ -22,6 +22,6 @@ public class SmartTelevisonEx {
 		tv.receiveVoice("오늘 날씨 어때?");
 		tv.turnOff();
 		
-		tv.touch(1, 2);
+		tv.touch(1, 5);
 	}
 }
