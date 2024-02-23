@@ -145,6 +145,7 @@ public class Main {
 		// 4. 게시글 수정
 		// 5. 게시글 삭제
 		// 0. 종료
+		// eee
 		int menuNo = 0;
 		
 		do {
