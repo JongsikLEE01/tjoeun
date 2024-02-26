@@ -6,6 +6,7 @@ import Day16.Board.DAO.BoardDAO;
 import Day16.Board.DTO.Board;
 
 // 게시판 기능 - 비지니스 로직 클래스
+// 게시판 인터페이스의 기능을 구현
 public class BoardServiceImpl implements BoardService {
 	
 	private BoardDAO boardDAO = new BoardDAO();
@@ -14,14 +15,16 @@ public class BoardServiceImpl implements BoardService {
 	public List<Board> list() {
 		// 1. DAO 객체의 게시글 목록 요청
 		List<Board> boardList = boardDAO.list();
-		// 3. 게시글 목록 반환
+		// 2. 게시글 목록 데이터 가공
 		
+		// 3. 게시글 목록 반환
 		return boardList;
 	}
 
 	@Override
 	public Board select(int no) {
 		Board board = boardDAO.select(no);		// 게시글 번호에 대한 게시글 정보 데이터 요청
+		// 조회수 증가 로직 작성 등... 기능 추가
 		return board;							// 2. 게시글 정보 반환
 	}
 

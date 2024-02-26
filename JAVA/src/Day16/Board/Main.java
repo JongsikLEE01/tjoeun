@@ -11,7 +11,7 @@ import Day16.Board.Service.BoardServiceImpl;
 public class Main {
 	// 필요한 객체 생성
 	static List<Board> boardList = null;	// 게시글 목록
-	static BoardService boardService = new BoardServiceImpl();	// 비니지스 로직 계층의 객체 생성
+	static BoardService boardService = new BoardServiceImpl();	// 비니지스 로직 계층의 객체 생성(기능 호출)
 	static Scanner sc = new Scanner(System.in);
 	
 	public static void menu() {
@@ -77,6 +77,7 @@ public class Main {
 		System.out.println("===== 게시글 조회 =====");
 		System.out.print("조회할 글 번호>> ");
 		int no = sc.nextInt();
+		sc.nextLine();
 		// no를 전달해 게시글 정보 데이터 요청
 		Board board = boardService.select(no);
 		// 게시글 정보 출력
@@ -145,7 +146,6 @@ public class Main {
 		// 4. 게시글 수정
 		// 5. 게시글 삭제
 		// 0. 종료
-		// eee
 		int menuNo = 0;
 		
 		do {
@@ -181,6 +181,5 @@ public class Main {
 			}
 			
 		}while(true);
-		
 	}
 }
