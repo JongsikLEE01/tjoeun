@@ -47,6 +47,5 @@ public class controller implements Initializable {
 				}
 			}
 		});
-	
 	}
 }
